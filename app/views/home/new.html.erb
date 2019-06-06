@@ -3,9 +3,7 @@
  <section class="section counter mt-6 body homepage fixed-mobile-menu"> 	
 	<div class="container">
 		<div class="row">
-		 	<video autoplay muted loop id="myVideo" >
-  				<source src="/assets/video1.mp4" type="video/mp4">
-			</video> 
+			<%= video_tag(["video1.mp4"], :id => "myVideo", :autoplay => true, :loop => true) %>
 			<div class="col-lg-9 col-md-10">
 				<div class="block">
 					<span class="d-block mb-3 text-color text-capitalize">Prepare for new future</span>
