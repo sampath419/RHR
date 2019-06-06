@@ -41,6 +41,9 @@ Rails.application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.logger = Logger.new(STDOUT)
+  config.logger.level = Logger.const_get((ENV["LOG_LEVEL"] || "INFO").upcase)
+
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
