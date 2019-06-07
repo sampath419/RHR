@@ -14,13 +14,14 @@
 //= require_tree
 //= require turbolinks
 //= require jquery.js
-//= require contact.js
-//= require popper.js
-//= require bootstrap.min.js
 //= require jquery.magnific-popup.min.js
-//= require slick.min.js
 //= require jquery.waypoints.min.js
 //= require jquery.counterup.min.js
+//= require contact.js
+//= require popper.js
+//= require bootstrap.js
+//= require bootstrap.min.js
+//= require slick.min.js
 //= require map.js
 //= require script.js
 
