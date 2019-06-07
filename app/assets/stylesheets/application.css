@@ -15,9 +15,10 @@
  *= require bootstrap.min.css
  *= require themify-icons.css
  *= require all.css
- *= require magnific-popup.css
+ *= require style.css
  *= require slick.css
  *= require slick-theme.css
- *= require style.css
+ *= require magnific-popup.css
+
 
  */
