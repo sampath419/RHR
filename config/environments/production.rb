@@ -28,18 +28,16 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
   config.assets.paths << "#{Rails.root}/app/assets/videos"
 
-  #config.assets.enabled = true
-
-
+  config.assets.enabled = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
   #config.serve_static_assets = false
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  #config.assets.compile = true
+  config.assets.compile = true
 
   # Generate digests for assets URLs
-  #config.assets.digest = true
+  config.assets.digest = true
 
   config.logger = Logger.new(STDOUT)
   config.logger.level = Logger.const_get((ENV["LOG_LEVEL"] || "INFO").upcase)
